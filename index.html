@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!-- PERTEMUAN 3: Menambah Portfolio dan Skills -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Baris ini membuat website tampil benar di layar HP -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> PORTFOLIO ME | Web Developer & Graphic Designer</title>
+  <!-- Menghubungkan file CSS (harus satu folder dengan index.html) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Kontainer utama: kotak putih di tengah halaman -->
+  <div class="page">
+
+    <!-- ==================== NAVBAR SECTION ==================== -->
+    <!-- Ganti nama di kiri dan teks menu di kanan sesuai kebutuhan.
+         href="#home" artinya meloncat ke bagian yang punya id="home". -->
+    <header class="navbar">
+      <div class="navbar-inner">
+        <a href="#home" class="logo">Dnz-devXz</a>
+        <nav class="nav-links">
+          <a href="#home">HOME</a>
+          <a href="#about">ABOUT ME</a>
+          <a href="#work">WORK</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ==================== HOME SECTION ==================== -->
+    <!-- AWAL bagian Home -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Hi There!</h1>
+        <span class="short-line"></span>
+        <h2>I'm Dnz-devXz</h2>
+        <p class="label">Web Developer &amp; Software Engineer
+        <p class="hero-desc">
+          I build responsive websites, engineer modern software, and craft professional visuals for businesses.
+        </p>
+        <div class="buttons">
+          <!-- Ganti email di bawah dengan email Anda -->
+          <a href="mailto:email-anda@gmail.com" class="btn">HIRE ME</a>
+          <a href="#work" class="btn">VIEW MY WORK</a>
+        </div>
+      </div>
+
+      <div class="hero-photo photo-frame">
+        <!-- GANTI FOTO PROFIL: simpan foto di folder images/ lalu ubah nama file di src.
+             Contoh: src="images/foto-saya.jpg" -->
+        <img src="images/profile.jpg" alt="Foto Profil">
+      </div>
+    </section>
+    <!-- AKHIR bagian Home -->
+
+    <!-- ==================== WHAT I DO SECTION ==================== -->
+    <section class="services">
+      <h2 class="section-title">What I Do</h2>
+      <span class="short-line center-line"></span>
+
+      <div class="services-grid">
+        <!-- Layanan 1. Ganti gambar/ikon di src (contoh: images/service1.jpg) -->
+        <div class="service">
+          <div class="placeholder service-img">
+            <img src="images/development.jpg" alt="Web Development">
+          </div>
+          <h3>WEB DEVELOPMENT</h3>
+          <p>I build fast, responsive websites using modern web technologies, focusing on clean code, optimal performance, and user-friendly design.</p>
+        </div>
+
+        <!-- Layanan 2 -->
+        <div class="service">
+          <div class="placeholder service-img">
+            <img src="images/Apps.jpg" alt="Website Setup">
+          </div>
+          <h3>SOFTWARE ENGINEER</h3>
+          <p>I design, develop, and maintain scalable software applications, solving complex problems with efficient algorithms and reliable system architecture.</p>
+        </div>
+
+        <!-- Layanan 3 -->
+        <div class="service">
+          <div class="placeholder service-img">
+            <img src="images/Ciber.jpg" alt="Design to Code">
+          </div>
+          <h3>CYBER SECURITY</h3>
+          <p>I protect systems, networks, and digital data from cyber threats through vulnerability assessments, secure configurations, and proactive defense strategies.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <section class="about-section" id="about">
+      <div class="about-photo photo-frame">
+        <!-- GANTI FOTO ABOUT ME: ubah nama file di src -->
+        <img src="images/about.me.jpg" alt="Foto About Me">
+      </div>
+
+      <div class="about-text">
+        <h2 class="about-title">ABOUT ME</h2>
+        <span class="short-line"></span>
+        <p>
+          I'm a web developer, software engineer, and cyber security enthusiast with 5+ months of experience. I specialize in building responsive websites, developing clean software applications, and securing digital systems to help businesses grow safely online.
+        </p>
+        <!-- Daftar keahlian: ganti teks di dalam <li> -->
+        <ul class="check-list">
+          <li>5+ month of experience in web &amp; sofware engineer</li>
+          <li>HTML, CSS, JavaScript, WordPress</li>
+          <li>Web &amp; sofware engineering, and cyber security fundamentals</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== PORTFOLIO SECTION ==================== -->
+    <section class="portfolio" id="work">
+      <h2 class="section-title">PORTFOLIO</h2>
+      <span class="short-line center-line"></span>
+
+      <div class="portfolio-grid">
+        <!-- Proyek 1. Ganti src dengan gambar proyek Anda, dan href dengan link proyek -->
+        <a href="#" class="project">
+          <div class="placeholder project-img">
+            <img src="images/Web.jpg" alt="Website Project 1">
+          </div>
+          <h3>WEBSITE DEVELOPMENT</h3>
+        </a>
+
+        <a href="#" class="project">
+          <div class="placeholder project-img">
+            <img src="images/Software.jpg" alt="Website Project 2">
+          </div>
+          <h3>APPS SOFTWARE</h3>
+        </a>
+      </div>
+
+      <div class="center-button">
+        <!-- Ganti # dengan link halaman semua proyek (misalnya Behance/Fiverr) -->
+        <a href="#" class="btn">VIEW MY PROJECTS</a>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="skills">
+      <h2 class="section-title">SKILLS</h2>
+      <span class="short-line center-line"></span>
+
+      <div class="skills-wrapper">
+        <!-- Tombol panah: hanya dekorasi (tidak berfungsi) -->
+        <span class="arrow arrow-left">&#8249;</span>
+
+        <div class="skills-grid">
+          <!-- Ganti simbol ikon (&#9638; dll.) dan teks sesuai keahlian Anda -->
+          <div class="skill-card">
+            <span class="skill-icon">&#9638;</span>
+            <h3>WEB DEVELOPMENT</h3>
+            <p>HTML | CSS | WORDPRESS | ELEMENTOR | ASTRA | DIVI</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">&#9881;</span>
+            <h3>SOFTWARE ENGINEER</h3>
+            <p>ALGORITHMS | DATA STRUCTURES | CLEAN CODE | GIT &amp; GITHUB</p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">&lt;/&gt;</span>
+            <h3>DESIGN TO CODE</h3>
+            <p>FIGMA TO HTML &amp; CSS | UI/UX IMPLEMENTATION | WORDPRESS | PIXEL-PERFECT
+            </p>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">&#9998;</span>
+            <h3>CYBER SECURITY</h3>
+            <p>NETWORK SECURITY | VULNERABILITY ASSESSMENT | LINUX | CRYPTOGRAFHY | SYSTEM HARDENING</p>
+          </div>
+        </div>
+
+        <span class="arrow arrow-right">&#8250;</span>
+      </div>
+    </section>
+
+ <!-- ==================== CALL TO ACTION SECTION ==================== -->
+    <section class="cta">
+      <h2>HAVE A PROJECT IN MIND? LET'S BUILD SOMETHING GREAT TOGETHER</h2>
+      <div class="buttons">
+        <a href="#contact" class="btn btn-white">HIRE ME</a>
+        <a href="#work" class="btn btn-white">VIEW MY WORK</a>
+      </div>
+    </section>
+
+    <!-- ==================== FOOTER SECTION ==================== -->
+    <footer class="footer" id="contact">
+      <div class="footer-left">
+        <h3 class="footer-name">Dnz-devXz</h3>
+        <p class="label">Web Developer &amp; Software Engineer</p>
+        <p class="copyright">&copy; 2026 Dnz-devXz. ALL RIGHTS RESERVED.</p>
+      </div>
+
+      <!-- Informasi kontak -->
+      <div class="footer-right">
+        <p>
+          <span class="icon">&#9993;</span>
+          <a href="mailto:dnzdevxz27@gmail.com">dnzdevxz27@gmail.com</a>
+        </p>
+        <p>
+          <span class="icon">IG</span>
+          <a href="https://www.instagram.com/danz_RMX27/" target="_blank">www.instagram.com/danz_rmx27/</a>
+        </p>
+        <p>
+          <span class="icon">Yt</span>
+          <a href="https://www.youtube.com/@DanzRmx_27/" target="_blank">https://www.youtube.com/@DanzRmx_27//</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
